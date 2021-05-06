@@ -1,0 +1,61 @@
+h1{
+	text-align:center;
+	vertical-align: text-top;
+	font-family: "Lucida Console", "Courier New", monospace ; 
+    font-size:50px;
+    
+}
+
+body{
+	background-color:#D2AD7E;
+
+/*buttons borders in left and right sides*/
+}
+
+.button {
+  background-color: #343A52; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:45px;
+  margin:10px;
+}
+
+
+.rightbutton {
+  background-color: #343A52; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:45px;
+  margin:10px;
+   position: relative;
+  left:1130px;
+  top: -200px;
+
+  ;
+}
+
+.button:hover{
+	font-weight:bold;
+}
+.rightbutton:hover{
+	font-weight:bold;
+	transition-delay:0.05s;
+} 
+a{
+	color:#E77340;
+	text-decoration:none;
+	transition-delay:0.05s;
+}
+
+
+
